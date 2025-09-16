@@ -4,7 +4,7 @@ const ConnectDB = async () => {
 
     await mongoose.connect(process.env.DBURI)
     .then(()=>{console.log("Connected to DB.....")})
-    .catch(()=>{console.log("Connection Failed.....")})
+    .catch((err)=>{console.log("Connection Failed....." ,err)})
 
 }
 
