@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const feedbackModel = require("../Models/feedbackSchema");
+const feedbackModel = require("../Models/FeedbackSchema");
 
 const feedbackController = {
   // GET: All feedbacks (optional use)
